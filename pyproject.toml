@@ -1,2 +1,5 @@
 [tool.pylint.messages_control]
-disable = ["all"]
+# Disable individual checks here as needed.
+# Do NOT use disable = ["all"]: with every checker off, pylint drops all
+# input files and exits 32 with "No files to lint: exiting."
+disable = []
